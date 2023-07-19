@@ -70,7 +70,6 @@ function setMinAlarm() {
 setMinAlarm();
 
 // set Alarm clock ringing logic
-
 function alarmSet() {
     setInterval(function () {
 
