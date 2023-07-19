@@ -47,9 +47,9 @@ function getGreetings(hours) {
 function setHourAlarm() {
 
     var select = document.getElementById('hour_set');
-    var hrs = 24
+    var hrs = 23
 
-    for (i = 1; i <= hrs; i++) {
+    for (i = 0; i <= hrs; i++) {
         select.options[select.options.length] = new Option(i < 10 ? "0" + i : i, i);
 
     }
